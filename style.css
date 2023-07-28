@@ -1,0 +1,73 @@
+
+.number-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ 
+  /* Estilos para los elementos de la lista */
+.number-list li {
+    display: inline-block;
+    width: 95px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 12px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+
+    
+    
+  }
+
+
+.fizz{
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.3s;
+  }
+
+.fizz:hover{
+      background-color: white;
+      
+  }
+
+.buzz{
+  background-color: blue;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.buzz:hover{
+  background-color: white;
+  color: black;
+}
+
+.fizzbuzz{
+  background-color: pink;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.fizzbuzz:hover{
+  background-color: white;
+  color: black;
+}
+
+#dato{
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
